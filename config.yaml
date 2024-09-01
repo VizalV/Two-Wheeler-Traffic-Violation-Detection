@@ -1,0 +1,13 @@
+path: /ssd_scratch/datasets/TW_Detection
+train: /ssd_scratch/datasets/TW_Detection/images/train
+val: /ssd_scratch/datasets/TW_Detection/images/val
+
+nc: 1
+# names: ['car','bus','autorickshaw','vehicle fallback','truck','motorcycle','rider','person','bicycle','animal','traffic sign','train','trailer','traffic light','caravan']
+names: 
+ 0: 'motorcycle'
+#  1: 'rider'
+#  2: 'helmet'
+#  3: 'number plate'
+#  4: 'traffic sign'
+#  5: 'traffic light'
